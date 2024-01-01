@@ -14,17 +14,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Installations
 #nodemon
 #react-router-dom
-#bootstrap-dark-5 ,react-bootstrap,bootstrap
+
+#bootstrap-dark-5 
+
+#react-bootstrap 
+
+#bootstrap
+
 #mongoose
+
 #mongodb
+
 #express
+
 #mongo4 or any other
+
 #jsonwebtoken
+
 #bcryptjs
+
 #bcrypt
 
 ### To Run (make sure your mongodb is running)
 #cd backend : nodemon .\index.js
+
 #cd.. : npm start
 
 
