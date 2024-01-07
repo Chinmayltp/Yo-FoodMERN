@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./screens/Home";
-import Login from "./screens/Login";
+import Home from "./app/screens/Home";
+import Login from "./app/screens/Login";
 import "../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css";
-import SignUp from "./screens/SignUp";
-import { CartProvider } from "./components/ContextReducer";
-import MyOrder from "./screens/MyOrder";
+import SignUp from "./app/screens/SignUp";
+import { CartProvider } from "./app/components/ContextReducer";
+import MyOrder from "./app/screens/MyOrder";
 
 function App() {
   return (

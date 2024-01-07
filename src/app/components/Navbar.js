@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Badge from "react-bootstrap/badge";
-import Modal from "../Modal";
+//import Badge from "react-bootstrap/badge";
+import Modal from "../../Modal";
 import Cart from "../screens/Cart";
 import { useCart } from "./ContextReducer";
 
@@ -82,10 +82,10 @@ const Navbar = () => {
                   className='btn bg-white text-success mx-2 '
                   onClick={() => setCartView(true)}
                 >
-                  My Cart
-                  <Badge pill bg='danger'>
+                  My Cart - {data.length}
+                  {/* <Badge pill bg='danger'>
                     {data.length}
-                  </Badge>
+                  </Badge> */}
                 </div>
                 {cartView ? (
                   <Modal
