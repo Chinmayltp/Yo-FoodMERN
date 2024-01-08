@@ -27,6 +27,9 @@ const SignUp = () => {
     if (!json.success) {
       alert("enter valid credentials");
     }
+    if (json.success) {
+      alert("User Signed up Please Login via Already a User");
+    }
   };
 
   const onChange = (e) => {
