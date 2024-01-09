@@ -7,6 +7,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     await fetch("http://localhost:5000/api/myOrderData", {
+      mode: "cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -19,6 +19,7 @@ const Cart = () => {
     let userEmail = localStorage.getItem("userEmail");
 
     let response = await fetch("http://localhost:5000/api/orderData", {
+      mode: "cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json",

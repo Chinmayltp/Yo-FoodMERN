@@ -11,6 +11,7 @@ const Home = () => {
     let response = await fetch("http://localhost:5000/api/foodData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
+      mode: "cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -108,7 +109,7 @@ const Home = () => {
         </div>
       </div>
       <div className=' container '>
-        {foodCat !== []
+        {foodCat !== null
           ? foodCat.map((data) => {
               return (
                 // justify-content-center
@@ -124,7 +125,7 @@ const Home = () => {
                         "-webkit-linear-gradient(left,rgb(0, 255, 137),rgb(0, 0, 0))",
                     }}
                   />
-                  {foodItems !== [] ? (
+                  {foodItems !== null ? (
                     foodItems
                       .filter(
                         (items) =>
