@@ -27,11 +27,17 @@ const SignUp = () => {
     if (!json.success) {
       alert("enter valid credentials");
     }
+    if (json.success) {
+      alert("User Signed up Please Login via Already a User");
+    }
   };
 
   const onChange = (e) => {
     setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
+  // const submitForm = () => {
+  //   <h1>Form submitted please log in</h1>;
+  // };
 
   return (
     <>
@@ -96,6 +102,7 @@ const SignUp = () => {
           <button type='submit' className='btn btn-primary'>
             Submit
           </button>
+
           <Link to='/login' className='m-6 mx-4 btn btn-danger'>
             Already a User
           </Link>

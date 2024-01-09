@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  return res.send("Hello World!");
 });
 
 app.use("/api", require("./Routes/CreateUser"));

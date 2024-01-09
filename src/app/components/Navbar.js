@@ -43,7 +43,7 @@ const Navbar = () => {
                 <Link
                   className='nav-link active fs-5 '
                   aria-current='page'
-                  to='#'
+                  to='/'
                 >
                   Home
                 </Link>
