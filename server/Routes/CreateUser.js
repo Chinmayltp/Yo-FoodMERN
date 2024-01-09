@@ -63,7 +63,7 @@ router.post(
         userData.password,
         function (res) {
           if (!pwdCompare) {
-            //return res.status(400).json({ errors: "Try Logging in with correct credentials" });
+            return res.status(400).json({ errors: "Try Logging in with correct credentials" });
           }
         }
       );
