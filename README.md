@@ -12,6 +12,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Installations
+
 <<<<<<< HEAD
 
 nodemon
@@ -34,7 +35,7 @@ cd .. : npm start
 <<<<<<< HEAD
 =======
 
->>>>>>> dbdc63aadd5348289ccd4ddf8c31a9b7a4960efc
+> > > > > > > dbdc63aadd5348289ccd4ddf8c31a9b7a4960efc
 
 #nodemon
 
@@ -50,10 +51,11 @@ cd .. : npm start
 
 #react-router-dom
 
-#bootstrap-dark-5 
+#bootstrap-dark-5
 
-#react-bootstrap 
->>>>>>> dbdc63aadd5348289ccd4ddf8c31a9b7a4960efc
+#react-bootstrap
+
+> > > > > > > dbdc63aadd5348289ccd4ddf8c31a9b7a4960efc
 
 #bootstrap
 
@@ -77,4 +79,4 @@ cd .. : npm start
 
 #cd.. : npm start
 
->>>>>>> f7dde19abfe4d0ca896bde722ae81d448f0c4690
+> > > > > > > f7dde19abfe4d0ca896bde722ae81d448f0c4690
