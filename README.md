@@ -47,7 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### To Run (make sure your mongodb is running)
 
-#cd backend : nodemon .\index.js
+#cd server : nodemon .\index.js
 
 #cd.. : npm start
 
