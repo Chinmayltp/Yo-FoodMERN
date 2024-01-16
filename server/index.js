@@ -7,20 +7,23 @@ mongoDB();
 
 app.use(
   cors({
-    origin: ["https://project19-3152.onrender.com/", "http://localhost:3000"],
+    origin: "http://localhost:3000",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    headers: ["Content-Type"],
+    credentials: true,
     preflightContinue: false,
     optionsSuccessStatus: 204,
-    function(req, res, next) {
-      res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-      res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Requested-With, Content-Type, Accept"
-      );
-      next();
-    },
   })
 );
+
+app.use(function (req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 app.use(express.json());
 
