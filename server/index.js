@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoDB = require("./db");
 mongoDB();
 
-app.use(cors))
+app.use(cors())
 
 // app.use(
 //   cors({
