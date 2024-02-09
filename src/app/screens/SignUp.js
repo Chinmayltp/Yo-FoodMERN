@@ -10,7 +10,7 @@ const SignUp = () => {
   });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/createuser", {
+    const response = await fetch("http://merncapastoneproject-nwsg.onrender.com/api/createuser", {
       mode: "cors",
       method: "POST",
       headers: {
