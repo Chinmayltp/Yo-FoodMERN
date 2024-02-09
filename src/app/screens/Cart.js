@@ -18,7 +18,7 @@ const Cart = () => {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
 
-    let response = await fetch("http://merncapastoneproject-nwsg.onrender.com/api/orderData", {
+    let response = await fetch("http://localhost:5000/api/orderData", {
       mode: "cors",
       method: "POST",
       headers: {
